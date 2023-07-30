@@ -46,7 +46,6 @@ nav {
     text-decoration: none;
 }
 
-
 nav ul,
 address ul {
     padding: 0;
@@ -71,8 +70,6 @@ header a {
     color: var(--navyblue);
     text-decoration: none;
 }
-
-
 .menu {
     color: var(--navyblue);
     font-style: normal;
@@ -85,8 +82,6 @@ header a {
 .menu:focus {
     color: var(--darkiris);
 }
-
-
 header a:visited,
 header a:hover {
     color: var(--navyblue);
@@ -102,7 +97,6 @@ header a:hover {
     letter-spacing: 0.02em;
     color: var(--navyblue);
 }
-
 .portfolio-p {
     font-size: 16px;
     line-height: 1.5;
@@ -137,12 +131,13 @@ header a:hover {
     border-radius: 4px;
     border: 1px solid var(--cornflower);
     background: var(--cloud);
+    cursor: pointer;
 }
 
 .button:hover,
 .button:active,
 .button:focus {
-    background: var(--iris);
+    background: var(--darkiris);
     color: var(--white);
 }
 
