@@ -16,14 +16,7 @@ body {
     background-color: var(--white);
 }
 
-address {
-    text-decoration: none;
-    font-style: normal;
-}
-
-.list,
-nav ul,
-address ul {
+.list {
     list-style: none;
     margin: 0;
 }
@@ -64,16 +57,10 @@ address ul {
     color: var(--darkiris);
 }
 
-header a,
 .menu {
     color: var(--navyblue);
     text-decoration: none;
     font-weight: 500;
-}
-
-header a:visited,
-header a:hover {
-    color: var(--navyblue);
 }
 
 .portfolio-header,
@@ -119,22 +106,6 @@ header a:hover {
     color: var(--white);
 }
 
-footer {
-    background: var(--navyblue);
-    color: var(--cloud);
-}
-
-footer a,
-footer p {
-    text-decoration: none;
-    color: var(--cloud);
-}
-
-footer p {
-    margin-top: 16px;
-    margin-bottom: 0;
-}
-
 .hero {
     background-color: var(--navyblue);
 }
@@ -159,7 +130,9 @@ footer p {
     text-transform: capitalize;
 }
 
-
 .logo-header {
-    color: var(--navyblue)
+    color: var(--navyblue);
+}
+.logo-footer {
+    color: #f4f4fd;
 }
