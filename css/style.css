@@ -16,8 +16,6 @@ body {
     background-color: var(--white);
 }
 
-
-
 address {
     text-decoration: none;
     font-style: normal;
@@ -29,8 +27,6 @@ address ul {
     list-style: none;
     margin: 0;
 }
-
-
 
 .link,
 .logo,
@@ -79,18 +75,6 @@ header a:hover {
     color: var(--navyblue);
 }
 
-nav,
-.menu,
-.button,
-#hero button {
-    font-weight: 500;
-}
-
-#cards,
-#filter {
-    margin: 72px 156px 0 156px;
-}
-
 .portfolio-header,
 .header-benefits,
 .team-header,
@@ -112,14 +96,8 @@ nav,
     color: var(--slate);
 }
 
-
-#filter ul li,
-#benefits ul li {
-    margin: 0 12px;
-}
-
 .button,
-#hero button {
+.hero-button {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -133,13 +111,11 @@ nav,
 .button:hover,
 .button:active,
 .button:focus,
-#hero button:hover,
-#hero button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background: var(--darkiris);
     color: var(--white);
 }
-
-
 
 footer {
     background: var(--navyblue);
@@ -166,28 +142,7 @@ footer p {
     line-height: 1.07em;
 }
 
-h1 {
-    width: 496px;
-    margin: auto;
-    text-align: center;
-    color: var(--white);
-    font-size: 3.5em;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1.12px;
-}
-
-
-
-#benefits,
-#proposal {
-    margin: 120px 156px;
-}
-
-#benefits ul h2,
-.header-proposal,
-#team h2 {
+.header-proposal {
     margin-bottom: 8px;
     color: var(--navyblue);
     text-align: center;
@@ -199,18 +154,6 @@ h1 {
     text-transform: capitalize;
 }
 
-#team {
-    background: var(--cloud);
-}
-
-#team li {
-    background: var(--white);
-    text-align: center;
-    color: var(--slate);
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
 
 .logo-header {
     color: var(--navyblue)
