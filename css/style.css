@@ -106,7 +106,10 @@ body {
     background: var(--darkiris);
     color: var(--white);
 }
-
+.filtered {
+    background-color: var(--cloud);
+    color: var(--iris);
+}
 .hero {
     background-color: var(--navyblue);
 }
