@@ -122,7 +122,7 @@ main .card p {
     margin: 0 12px;
 }
 
-#filter ul li button {
+.button {
     color: var(--iris);
     padding: 12px 24px;
     border-radius: 4px;
@@ -130,7 +130,8 @@ main .card p {
     background: var(--cloud);
 }
 
-#filter ul li button.active {
+.button:hover,
+.button:active {
     background: var(--iris);
     color: var(--white);
 }
