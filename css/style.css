@@ -12,18 +12,11 @@ body {
     font-family: Roboto, sans-serif;
     color: var(--slate);
     letter-spacing: 0.32px;
-    padding: 0;
     margin: 0;
     background-color: var(--white);
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 72px;
-    padding: 0 156px;
-}
+
 
 address {
     text-decoration: none;
@@ -34,16 +27,10 @@ address {
 nav ul,
 address ul {
     list-style: none;
-    padding: 0;
     margin: 0;
 }
 
-nav ul,
-address ul {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-}
+
 
 .link,
 .logo,
@@ -125,13 +112,6 @@ nav,
     color: var(--slate);
 }
 
-#filter ul,
-#benefits ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-}
 
 #filter ul li,
 #benefits ul li {
@@ -145,8 +125,6 @@ nav,
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--iris);
-    padding: 12px 24px;
-    border-radius: 4px;
     border: 1px solid var(--cornflower);
     background: var(--cloud);
     cursor: pointer;
@@ -161,13 +139,9 @@ nav,
     color: var(--white);
 }
 
-.block {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 footer {
-    padding: 100px 156px;
     background: var(--navyblue);
     color: var(--cloud);
 }
@@ -181,7 +155,6 @@ footer p {
 footer p {
     margin-top: 16px;
     margin-bottom: 0;
-    width: 264px;
 }
 
 .hero {
@@ -190,7 +163,6 @@ footer p {
 
 .hero-header {
     text-align: center;
-    padding: 188px;
     line-height: 1.07em;
 }
 
@@ -206,15 +178,7 @@ h1 {
     letter-spacing: 1.12px;
 }
 
-#hero button {
-    display: inline-flex;
-    padding: 16px 32px;
-    border: 1px solid var(--iris);
-    border-radius: 4px;
-    background: var(--iris);
-    color: var(--white);
-    margin-top: 48px;
-}
+
 
 #benefits,
 #proposal {
@@ -235,18 +199,7 @@ h1 {
     text-transform: capitalize;
 }
 
-#proposal ul,
-#team ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    justify-content: space-between;
-    gap: 24px;
-}
-
 #team {
-    padding: 120px 156px;
     background: var(--cloud);
 }
 
@@ -257,7 +210,6 @@ h1 {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-    padding-bottom: 32px;
 }
 
 .logo-header {
