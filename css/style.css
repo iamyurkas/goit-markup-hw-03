@@ -10,12 +10,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 96px;
-    padding: 24px 156px 0;
+    height: 72px;
+    vertical-align: middle;
+    padding: 0 156px;
 }
-
-nav,
 address {
+    text-decoration: none;
+    font-style: normal;
+}
+nav {
     font-weight: 500;
 }
 
@@ -52,13 +55,10 @@ header a:visited,
 header a:hover {
     color: #2E2F42;
 }
-
-main {
-    padding: 96px 156px;
+#cards {
+    margin: 72px 156px 0 156px;
 }
-
-main h2,
-main .card p {
+main h2 {
     font-size: 1.4em;
     font-weight: 500;
     padding-top: 32px;
@@ -72,7 +72,7 @@ main .card p {
 }
 
 #filter {
-    margin-bottom: 72px;
+    margin: 72px 156px 0 156px;
 }
 
 #filter ul {
@@ -120,4 +120,92 @@ footer p {
     margin-top: 16px;
     margin-bottom: 0;
     width: 264px;
+}
+#hero {
+    text-align: center;
+    background: #2E2F42;
+    padding: 188px;
+}
+h1 {
+    width: 496px;
+    margin: auto;
+    text-align: center;
+    color: #FFF;
+    font-size: 3.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 107.143% */
+    letter-spacing: 1.12px;
+}
+#hero button {
+    display: inline-flex;
+    padding: 16px 32px;
+    border: 1px solid #4D5AE5;
+    border-radius: 4px;
+    background: #4D5AE5;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    margin-top: 48px;
+}
+#benefits,
+#proposal {
+    margin: 120px 156px;
+}
+#benefits ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    gap: 24px;
+}
+#benefits ul h2 {
+    margin-bottom: 8px;
+}
+
+#proposal h2,
+#team h2 {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+#proposal ul,
+#team ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    gap: 24px;
+}
+#team {
+    padding: 120px 156px;
+    background: #F4F4FD;
+}
+#team li {
+    background: #FFF;
+    text-align: center;
+    color: #434455;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    padding-bottom: 32px;
+}
+#team h3 {
+    color: #2E2F42;
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    margin-top: 32px;
 }
