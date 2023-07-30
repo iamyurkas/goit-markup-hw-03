@@ -41,6 +41,7 @@ body {
 .address {
     font-style: normal;
 }
+
 .address-link,
 .menu {
     color: var(--slate);
@@ -73,10 +74,16 @@ body {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color:var(--navyblue);
 }
+
 .liteam {
     background-color: #FFFFFF;
 }
+
+.portfolio-header,
+.header-benefits,
 .team-name {
     font-size: 20px;
     font-weight: 500;
@@ -84,16 +91,13 @@ body {
     letter-spacing: 0.02em;
     color: var(--navyblue);
 }
-.portfolio-header,
-.header-benefits {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navyblue);
-}
 
-.pteam,
+.pteam {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
 .pfooter {
     font-size: 16px;
     line-height: 1.5;
