@@ -45,12 +45,13 @@ address ul {
     gap: 40px;
 }
 .address-link {
-    line-height: 1.5em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--slate);
 }
 .address-link:hover,
 .address-link:focus {
-    line-height: 1.5em;
     color: var(--darkiris);
 }
 header a {
@@ -156,9 +157,11 @@ footer p {
     margin-bottom: 0;
     width: 264px;
 }
+.hero {
+    background-color: var(--navyblue);
+}
 .hero-header {
     text-align: center;
-    background: var(--navyblue);
     padding: 188px;
     line-height: 1.07em;
 }
@@ -175,16 +178,23 @@ h1 {
     letter-spacing: 1.12px;
 }
 #hero button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     display: inline-flex;
     padding: 16px 32px;
     border: 1px solid var(--iris);
     border-radius: 4px;
     background: var(--iris);
     color: var(--white);
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
     margin-top: 48px;
+    cursor: pointer;
+}
+#hero button:hover,
+#hero button:focus {
+    background-color: #404BBF;
 }
 #benefits,
 #proposal {
