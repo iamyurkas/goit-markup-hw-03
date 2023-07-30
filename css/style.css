@@ -92,10 +92,16 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white);
     border: 1px solid var(--cornflower);
     cursor: pointer;
+}
+.hero-button {
+    color: var(--white);
     background-color: #4D5AE5;
+}
+.button {
+    background-color: var(--cloud);
+    color: var(--iris);
 }
 
 .button:hover,
@@ -106,10 +112,7 @@ body {
     background: var(--darkiris);
     color: var(--white);
 }
-.filtered {
-    background-color: var(--cloud);
-    color: var(--iris);
-}
+
 .hero {
     background-color: var(--navyblue);
 }
