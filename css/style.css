@@ -223,14 +223,14 @@ h1 {
 .p-benefits {
     line-height: 1.5;
 }
-#proposal h2,
+.h2-proposal,
 #team h2 {
     color: var(--navyblue);
     text-align: center;
-    font-size: 2em;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
