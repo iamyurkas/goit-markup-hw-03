@@ -255,6 +255,11 @@ h1 {
     letter-spacing: 0.32px;
     padding-bottom: 32px;
 }
+.h2team {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 #team h3 {
     color: var(--navyblue);
     font-size: 1.4em;
