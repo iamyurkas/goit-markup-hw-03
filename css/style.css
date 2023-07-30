@@ -287,3 +287,6 @@ h1 {
 .pteam {
     font-size: 16px;
 }
+.logo-header {
+    color: var(--navyblue)
+}
