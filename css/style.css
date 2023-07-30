@@ -40,14 +40,12 @@ body {
 
 .address-link,
 .menu {
+    color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 400;
-}
-
-.address-link {
-    color: var(--slate);
+    font-style: normal;
 }
 
 .address-link:hover,
@@ -129,7 +127,9 @@ body {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-
+.footer {
+    background-color:var(--navyblue);
+}
 .logo-header {
     color: var(--navyblue);
 }
