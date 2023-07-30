@@ -46,9 +46,7 @@ nav {
     text-decoration: none;
 }
 
-.link span {
-    color: var(--navyblue);
-}
+
 nav ul,
 address ul {
     padding: 0;
