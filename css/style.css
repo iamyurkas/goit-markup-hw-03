@@ -61,18 +61,23 @@ header a {
     color: var(--iris);
     text-decoration: none;
 }
-.menu {
-    line-height: 1.5em;
+.link span {
+    color: var(--navyblue);
 }
-.link:hover,
-.link:focus {
+.menu {
+    color: var(--navyblue);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.02px;
+}
+.menu:hover,
+.menu:focus {
 
     color: var(--darkiris);
 }
 
-.link span {
-    color: var(--navyblue);
-}
 
 header a:visited,
 header a:hover {
