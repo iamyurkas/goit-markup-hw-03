@@ -44,7 +44,15 @@ address ul {
     align-items: flex-start;
     gap: 40px;
 }
-
+.address-link {
+    line-height: 1.5em;
+    color: var(--slate);
+}
+.address-link:hover,
+.address-link:focus {
+    line-height: 1.5em;
+    color: var(--darkiris);
+}
 header a {
     color: var(--navyblue);
     text-decoration: none;
@@ -70,11 +78,10 @@ header a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5em;
-    letter-spacing: 0.02px;
+    letter-spacing: 0.02em;
 }
 .menu:hover,
 .menu:focus {
-
     color: var(--darkiris);
 }
 
@@ -149,10 +156,11 @@ footer p {
     margin-bottom: 0;
     width: 264px;
 }
-#hero {
+.hero-header {
     text-align: center;
     background: var(--navyblue);
     padding: 188px;
+    line-height: 1.07em;
 }
 h1 {
     width: 496px;
