@@ -7,9 +7,10 @@
     --cloud: #F4F4FD;
     --darkiris: #404bbf;
 }
+
 body {
     font-family: Roboto, sans-serif;
-    color: #434455;
+    color: var(--slate);
     letter-spacing: 0.32px;
     padding: 0;
     margin: 0;
@@ -21,108 +22,125 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 72px;
-    vertical-align: middle;
     padding: 0 156px;
 }
+
 address {
     text-decoration: none;
     font-style: normal;
 }
-nav {
-    font-weight: 500;
-}
-.list {
+
+.list,
+nav ul,
+address ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
-.link {
+
+nav ul,
+address ul {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.link,
+.logo,
+.logo-footer {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
-    color: var(--iris);
     text-decoration: none;
 }
 
-nav ul,
-address ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
+.link {
+    margin-right: 76px;
+    color: var(--iris);
 }
-.address-link {
+
+.address-link,
+.menu {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
     font-weight: 400;
 }
+
+.address-link {
+    color: var(--slate);
+}
+
 .address-link:hover,
-.address-link:focus {
-    color: var(--darkiris);
-}
-header a {
-    color: var(--navyblue);
-    text-decoration: none;
-}
-.menu {
-    color: var(--navyblue);
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5em;
-    letter-spacing: 0.02em;
-}
+.address-link:focus,
 .menu:hover,
 .menu:focus {
     color: var(--darkiris);
 }
+
+header a,
+.menu {
+    color: var(--navyblue);
+    text-decoration: none;
+}
+
 header a:visited,
 header a:hover {
     color: var(--navyblue);
 }
-#cards {
-    margin: 72px 156px 0 156px;
-}
-.portfolio-header {
-    font-size: 20px;
+
+nav,
+.menu,
+.button,
+#hero button {
     font-weight: 500;
-    padding-top: 32px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navyblue);
-}
-.portfolio-p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding-bottom: 32px;
-    color: var(--slate);
 }
 
+#cards,
 #filter {
     margin: 72px 156px 0 156px;
 }
 
-#filter ul {
+.portfolio-header,
+.header-benefits,
+.team-header,
+.team-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+}
+
+.portfolio-p,
+.pbenefits,
+.pteam,
+.pfooter {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+#filter ul,
+#benefits ul {
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 0;
 }
 
-#filter ul li {
+#filter ul li,
+#benefits ul li {
     margin: 0 12px;
 }
 
-.button {
+.button,
+#hero button {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -136,7 +154,9 @@ header a:hover {
 
 .button:hover,
 .button:active,
-.button:focus {
+.button:focus,
+#hero button:hover,
+#hero button:focus {
     background: var(--darkiris);
     color: var(--white);
 }
@@ -147,7 +167,7 @@ header a:hover {
 }
 
 footer {
-    padding: 100px 156px 100px;
+    padding: 100px 156px;
     background: var(--navyblue);
     color: var(--cloud);
 }
@@ -163,14 +183,17 @@ footer p {
     margin-bottom: 0;
     width: 264px;
 }
+
 .hero {
     background-color: var(--navyblue);
 }
+
 .hero-header {
     text-align: center;
     padding: 188px;
     line-height: 1.07em;
 }
+
 h1 {
     width: 496px;
     margin: auto;
@@ -180,15 +203,10 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
-    /* 107.143% */
     letter-spacing: 1.12px;
 }
+
 #hero button {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     display: inline-flex;
     padding: 16px 32px;
     border: 1px solid var(--iris);
@@ -196,39 +214,17 @@ h1 {
     background: var(--iris);
     color: var(--white);
     margin-top: 48px;
-    cursor: pointer;
 }
-#hero button:hover,
-#hero button:focus {
-    background-color: #404BBF;
-}
+
 #benefits,
 #proposal {
     margin: 120px 156px;
 }
-#benefits ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    justify-content: space-between;
-    gap: 24px;
-}
-#benefits ul h2 {
-    margin-bottom: 8px;
-}
-.header-benefits {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navyblue);
-}
-.pbenefits {
-    line-height: 1.5;
-}
+
+#benefits ul h2,
 .header-proposal,
 #team h2 {
+    margin-bottom: 8px;
     color: var(--navyblue);
     text-align: center;
     font-size: 36px;
@@ -238,8 +234,9 @@ h1 {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
+
 #proposal ul,
-#team ul{
+#team ul {
     display: flex;
     list-style: none;
     padding: 0;
@@ -247,52 +244,22 @@ h1 {
     justify-content: space-between;
     gap: 24px;
 }
+
 #team {
     padding: 120px 156px;
     background: var(--cloud);
 }
+
 #team li {
     background: var(--white);
     text-align: center;
     color: var(--slate);
-    text-align: center;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
     padding-bottom: 32px;
 }
-.team-header {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.team-name {
-    color: var(--navyblue);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    margin-top: 32px;
-}
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
-}
-.pfooter {
-    line-height: 1.5;
-}
-.logo-footer {
-    color: #f4f4fd;
-}
-.pteam {
-    font-size: 16px;
-}
+
 .logo-header {
     color: var(--navyblue)
 }
