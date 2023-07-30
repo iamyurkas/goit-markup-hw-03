@@ -213,17 +213,17 @@ h1 {
 #benefits ul h2 {
     margin-bottom: 8px;
 }
-.h3-benefits {
+.h3benefits {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue);
 }
-.p-benefits {
+.pbenefits {
     line-height: 1.5;
 }
-.h2-proposal,
+.h2proposal,
 #team h2 {
     color: var(--navyblue);
     text-align: center;
