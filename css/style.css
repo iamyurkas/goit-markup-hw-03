@@ -136,7 +136,8 @@ main .card p {
 }
 
 .button:hover,
-.button:active {
+.button:active,
+.button:focus, {
     background: var(--iris);
     color: var(--white);
 }
