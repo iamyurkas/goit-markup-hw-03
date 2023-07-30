@@ -107,7 +107,7 @@ header a:hover {
     color: var(--white);
     border: 1px solid var(--cornflower);
     cursor: pointer;
-    background-color: var(--cloud);
+    background-color: var(--iris);
 }
 
 .button:hover,
