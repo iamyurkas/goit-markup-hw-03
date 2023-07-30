@@ -64,9 +64,18 @@ body {
     font-weight: 500;
 }
 
+.team {
+    background-color: var(--cloud);
+}
+
+.team-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
 .portfolio-header,
 .header-benefits,
-.team-header,
 .team-name {
     font-size: 20px;
     font-weight: 500;
