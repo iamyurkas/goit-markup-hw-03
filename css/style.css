@@ -2,75 +2,83 @@ body {
     font-family: Roboto, sans-serif;
     color: #2E2F42;
     letter-spacing: 0.32px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    padding: 0;
+    margin: 0;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 96px;
-    padding: 24px 156px 0px 156px;
+    padding: 24px 156px 0;
 }
-nav {
+
+nav,
+address {
     font-weight: 500;
 }
+
 nav ul,
 address ul {
     padding: 0;
     margin: 0;
-    list-style-type: none;
+    list-style: none;
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
 }
+
 header a {
     color: #2E2F42;
     text-decoration: none;
 }
-address {
-    font-style: normal;
-}
+
 .logo {
     font-family: Raleway, sans-serif;
-        font-size: 1.2em;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 21px;
-        /* 116.667% */
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        margin-right: 76px;
+    font-size: 1.2em;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin-right: 76px;
 }
+
 .logo span {
     color: #4D5AE5;
 }
+
 header a:visited,
 header a:hover {
     color: #2E2F42;
 }
-main{
-    padding: 96px 156px 96px 156px;
+
+main {
+    padding: 96px 156px;
 }
-main h2 {
+
+main h2,
+main .card p {
     font-size: 1.4em;
     font-weight: 500;
     padding-top: 32px;
-    line-height: 1.6em; 
+    line-height: 1.6em;
     letter-spacing: 0.4px;
 }
+
 main .card p {
     padding-bottom: 32px;
-    line-height: 1.6em;
     color: #434455;
 }
+
 #filter {
-    margin-bottom:72px;
+    margin-bottom: 72px;
 }
+
 #filter ul {
     display: flex;
     justify-content: center;
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
@@ -81,33 +89,35 @@ main .card p {
 #filter ul li button {
     color: #4D5AE5;
     padding: 12px 24px;
-    justify-content: center;
-    align-items: center;
     border-radius: 4px;
     border: 1px solid #E7E9FC;
     background: #F4F4FD;
 }
-#filter ul li button.active{
+
+#filter ul li button.active {
     background: #404BBF;
     color: #FFFFFF;
 }
+
 .block {
     display: flex;
     justify-content: space-between;
 }
+
 footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 156px;
+    padding: 100px 156px 100px;
     background: #2E2F42;
     color: #F4F4FD;
 }
-footer a {
+
+footer a,
+footer p {
     text-decoration: none;
     color: #F4F4FD;
 }
+
 footer p {
     margin-top: 16px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     width: 264px;
 }
