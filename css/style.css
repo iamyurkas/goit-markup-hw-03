@@ -101,12 +101,13 @@ header a:hover {
 .hero-button {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--iris);
+    color: var(--white);
     border: 1px solid var(--cornflower);
-    background: var(--cloud);
     cursor: pointer;
+    background-color: var(--cloud);
 }
 
 .button:hover,
