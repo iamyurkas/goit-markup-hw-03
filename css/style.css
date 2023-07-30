@@ -1,9 +1,19 @@
+:root {
+    --white: #FFFFFF;
+    --navyblue: #2E2F42;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --darkiris: #404bbf;
+}
 body {
     font-family: Roboto, sans-serif;
-    color: #2E2F42;
+    color: #434455;
     letter-spacing: 0.32px;
     padding: 0;
     margin: 0;
+    background-color: var(--white);
 }
 
 header {
@@ -21,7 +31,9 @@ address {
 nav {
     font-weight: 500;
 }
-
+.list {
+    list-style: none;
+}
 nav ul,
 address ul {
     padding: 0;
@@ -33,27 +45,34 @@ address ul {
 }
 
 header a {
-    color: #2E2F42;
+    color: var(--navyblue);
     text-decoration: none;
 }
 
-.logo {
+.link {
     font-family: Raleway, sans-serif;
-    font-size: 1.2em;
+    font-size: 18px;
     font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    color: var(--iris);
+    text-decoration: none;
+}
+.link:hover,
+.link:focus {
+
+    color: var(--darkiris);
 }
 
-.logo span {
-    color: #4D5AE5;
+.link span {
+    color: var(--navyblue);
 }
 
 header a:visited,
 header a:hover {
-    color: #2E2F42;
+    color: var(--navyblue);
 }
 #cards {
     margin: 72px 156px 0 156px;
@@ -68,7 +87,7 @@ main h2 {
 
 main .card p {
     padding-bottom: 32px;
-    color: #434455;
+    color: var(--slate);
 }
 
 #filter {
@@ -87,16 +106,16 @@ main .card p {
 }
 
 #filter ul li button {
-    color: #4D5AE5;
+    color: var(--iris);
     padding: 12px 24px;
     border-radius: 4px;
-    border: 1px solid #E7E9FC;
-    background: #F4F4FD;
+    border: 1px solid var(--cornflower);
+    background: var(--cloud);
 }
 
 #filter ul li button.active {
-    background: #404BBF;
-    color: #FFFFFF;
+    background: var(--iris);
+    color: var(--white);
 }
 
 .block {
@@ -106,14 +125,14 @@ main .card p {
 
 footer {
     padding: 100px 156px 100px;
-    background: #2E2F42;
-    color: #F4F4FD;
+    background: var(--navyblue);
+    color: var(--cloud);
 }
 
 footer a,
 footer p {
     text-decoration: none;
-    color: #F4F4FD;
+    color: var(--cloud);
 }
 
 footer p {
@@ -123,14 +142,14 @@ footer p {
 }
 #hero {
     text-align: center;
-    background: #2E2F42;
+    background: var(--navyblue);
     padding: 188px;
 }
 h1 {
     width: 496px;
     margin: auto;
     text-align: center;
-    color: #FFF;
+    color: var(--white);
     font-size: 3.5em;
     font-style: normal;
     font-weight: 700;
@@ -141,10 +160,10 @@ h1 {
 #hero button {
     display: inline-flex;
     padding: 16px 32px;
-    border: 1px solid #4D5AE5;
+    border: 1px solid var(--iris);
     border-radius: 4px;
-    background: #4D5AE5;
-    color: #FFF;
+    background: var(--iris);
+    color: var(--white);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
@@ -168,7 +187,7 @@ h1 {
 
 #proposal h2,
 #team h2 {
-    color: #2E2F42;
+    color: var(--navyblue);
     text-align: center;
     font-size: 2em;
     font-style: normal;
@@ -188,12 +207,12 @@ h1 {
 }
 #team {
     padding: 120px 156px;
-    background: #F4F4FD;
+    background: var(--cloud);
 }
 #team li {
-    background: #FFF;
+    background: var(--white);
     text-align: center;
-    color: #434455;
+    color: var(--slate);
     text-align: center;
     font-weight: 400;
     line-height: 24px;
@@ -201,7 +220,7 @@ h1 {
     padding-bottom: 32px;
 }
 #team h3 {
-    color: #2E2F42;
+    color: var(--navyblue);
     font-size: 1.4em;
     font-style: normal;
     font-weight: 500;
